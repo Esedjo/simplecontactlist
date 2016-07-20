@@ -9,6 +9,7 @@
            .constant('CONFIG', Object.freeze({
                 version:'0.1.0',
                 basePath:'modules/',
+                /*jsonPath:"http://<ip-adress of the api>:3030/contacts"*/
                 jsonPath:"http://192.168.0.13:3030/contacts"
            }))
 
