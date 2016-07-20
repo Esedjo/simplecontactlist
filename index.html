@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="main">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact list</title>
+    <ui-meta></ui-meta>
+</head>
+<body>
+
+    <ui-header></ui-header>
+
+    <main>
+        <ui-alert></ui-alert>
+        <ng-view></ng-view>
+    </main>
+
+    <ui-footer></ui-footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js" ></script>
+    <script src="modules/ui/ui.js"></script>
+    <script src="modules/main/main.js"></script>
+    <script src="modules/core/core.js"></script>
+    <script src="modules/core/core.user.js"></script>
+    <script src="modules/core/core.contact.js"></script>
+    <script src="modules/contact-edit/contact-edit.js"></script>
+    <script src="modules/contact-list/contact-list.js"></script>
+    <script src="modules/contact-login/contact-login.js"></script>
+</body>
+</html>

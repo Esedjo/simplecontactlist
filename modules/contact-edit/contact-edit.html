@@ -1,0 +1,34 @@
+<div class="col-xs-6">
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Edit or Create Contact</h3>
+    </div>
+    <div class="panel-body">
+        <form name="">
+            <legend>
+                <img class="col-xs-12" ng-src="{{contact.pic}}">
+            </legend>
+
+            <div class="form-group">
+                <input type="text" class="form-control"
+                placeholder="Name" ng-model="contact.name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control"
+                placeholder="City" ng-model="contact.city">
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="form-control"
+                placeholder="Email" ng-model="contact.email">
+            </div>
+
+            <ui-button level="success" icon="plus" ng-click="create()">Create</ui-button>
+            <ui-button level="primary" icon="floppy-saved">Edit</ui-button>
+        </form>
+    </div>
+</div>
+
+</div>
